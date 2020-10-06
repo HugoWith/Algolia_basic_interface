@@ -121,8 +121,8 @@ export default {
   data() {
     return {
       searchClient: algoliasearch(
-        "J4CSRPH96F",
-        "ff7239d8bd49e1b9000920a803df4132"
+        process.env.VUE_APP_CLIENT,
+        process.env.VUE_APP_API_KEY
       ),
     };
   },
