@@ -24,3 +24,4 @@ yarn run test
 ```
 yarn run lint
 ```
+# Algolia_basic_interface
