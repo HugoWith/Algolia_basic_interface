@@ -11,7 +11,8 @@
     "algoliasearch": "3.30.0",
     "instantsearch.css": "7.1.0",
     "vue": "2.5.17",
-    "vue-instantsearch": "2.0.0-beta.2"
+    "vue-instantsearch": "2.0.0-beta.2",
+    "vue-slider-component": "^3.2.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.2.0",
@@ -21,6 +22,8 @@
     "babel-eslint": "10.0.1",
     "eslint": "5.9.0",
     "eslint-plugin-vue": "5.0.0-beta.6",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
     "vue-template-compiler": "2.5.17"
   }
 }
