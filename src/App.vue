@@ -257,6 +257,9 @@ body {
       transition: all 0.3s ease-in-out;
     }
   }
+  @media screen and (max-width: 772px) {
+    margin: 0 auto;
+  }
 }
 
 .hit-description {
@@ -303,7 +306,12 @@ body {
 //LEFT PANEL
 
 .search-panel {
-  display: flex;
+  display: grid;
+  grid-template-columns: 23vw 68vw;
+
+  @media screen and (max-width: 772px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .search-panel__filters {
@@ -312,6 +320,10 @@ body {
   box-shadow: 5px 5px 15px rgba(249, 15, 0, 0.1);
   border-radius: 30px;
   padding: 1rem;
+  @media screen and (max-width: 772px) {
+    width: 60vw;
+    margin: 0 auto;
+  }
 }
 
 .ais-RefinementList-list {
