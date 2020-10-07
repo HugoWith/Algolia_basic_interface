@@ -39,7 +39,7 @@ Some of the filters option are not really the best for the users, but I wanted o
 ## TO GO FURTHER
 
 I didn't have the time to make the datas more readable (views, popularity, duration) but if I had more time I think it would have been my next task.
-The website is not full responsive. If I had the time I would have use CSS Grid on the whole page to make it responsive on mobile (it is actually responsive until 650px.)
+The website is responsive but could have been much better with a little bit more time. The filter coulf have been toggled for example.
 Because I used the boilerplate from Algolia the CSS naming is a mix between the BEM method which I use, and the Algolia naming. So I think it is also a thing to work on.
 
 ## QUICK NOTE
